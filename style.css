@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body {
+  margin-left: 100px;
+  padding: 0px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+div {
+  background-color: white;
+}
+#logo {
+  margin-top: 25px;
+  margin-left: 1220px;
+}
+#worldcup {
+  font-size: 300%;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-shadow: 2px 2px 8px #474747;
+}
+#score {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: gray;
+}
+#red {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: white;
+}
+.rowl {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  padding: 10px;
+  font-weight: bold;
+}
+.set {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+#box {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 870px;
+}
+.batsman {
+  font-weight: normal;
+  color: rgb(4, 127, 243);
+}
+.wicket {
+  font-weight: normal;
+  color: grey;
+  text-align: center;
+}
+#extras {
+  margin-right: 120px;
+}
+#total {
+  margin-right: 150px;
+}
+#bat {
+  display: flex;
+  font-weight: normal;
+  color: rgb(4, 127, 243);
+  margin-right: 100px;
+}
+.footer {
+  margin-top: 30px;
+}
+.red {
+  background-color: red;
+}
+.img {
+  display: none;
+}
+.pointer {
+  cursor: pointer;
+}
